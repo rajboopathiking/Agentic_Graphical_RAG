@@ -84,7 +84,7 @@ pip install numpy pandas
 
 
 If you are running in Google Colab or Jupyter Lab, simply open the notebook and run the cells sequentially.
-
+```
 ▶️ How to Use
 
 1️⃣ Open the notebook
