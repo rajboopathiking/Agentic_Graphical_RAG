@@ -1,80 +1,81 @@
-# Agentic_Graphical_RAG
+🤖 Agentic Graphical RAG
+
+A Unified Architecture for Structured Reasoning, Knowledge Grounding & Intelligent Retrieval
+
+Agentic_Graphical_RAG demonstrates a hybrid AI architecture that combines:
+
 Retrieval Augmented Generation (RAG)
 
-Graph / Knowledge-Graph based RAG
+Knowledge Graph / Graph-RAG reasoning
 
-Agentic workflow orchestration
+Agent-based workflow orchestration
 
-Unified multimodal reasoning pipeline
+Unified multimodal + structured reasoning pipeline
 
-Below is a clean, professional README.md you can directly put in your GitHub repo for this research notebook 👇
+The goal is to move beyond conventional RAG by integrating agents + structured knowledge + retrieval intelligence, producing a system that is more reliable, interpretable, and controllable.
 
-# 🤖 Agentic + Graphical RAG  
-*A Unified Architecture for Structured Reasoning, Knowledge Grounding & Intelligent Retrieval*
+🚀 Core Contributions
 
-This repository contains a Jupyter Notebook implementation of an **Agentic Graphical RAG** system — a hybrid architecture that combines:
+Unlike traditional RAG, Graph-RAG, or Agentic pipelines used independently, this project:
 
-- Retrieval-Augmented Generation (RAG)
-- Knowledge Graph / Graph RAG reasoning
-- Agent-based decision orchestration
-- Iterative reasoning + planning pipeline
+✔ Integrates Agents + Graph Reasoning + RAG retrieval in one workflow
+✔ Uses graph structure to enhance knowledge grounding & retrieval precision
+✔ Enables iterative planning + self-correction
+✔ Provides transparent reasoning paths instead of black-box answers
+✔ Demonstrates methodological + technical novelty (not just application-level)
 
-The goal of this work is to move beyond traditional vanilla RAG systems and demonstrate how **agents + knowledge structure + retrieval** together create a more *reliable, interpretable and controllable AI system*.
+🧠 Architecture Overview
+🔹 1️⃣ Knowledge Layer
 
----
+Stores structured relational knowledge supporting:
 
-## 🚀 Core Contribution
-Unlike traditional RAG, Graph RAG, or Agentic systems used separately, this work:
+Entity linking
 
-✔ Integrates **Agents + Graph Reasoning + Retrieval** into a single workflow  
-✔ Uses **graph structure** to enhance context selection and reasoning accuracy  
-✔ Enables **iterative self-correction and decision autonomy**  
-✔ Provides **explainable reasoning paths** rather than black-box responses  
-✔ Demonstrates **methodological + technical novelty**, not just application-level usage
+Relationship inference
 
----
+Graph traversal
 
-## 🧠 Architecture Overview
+Structured reasoning
 
-### 🔹 1️⃣ Knowledge Layer
-Stores information in a structured relational form enabling:
-- entity linking  
-- relationship inference  
-- graph traversal retrieval  
-- structured knowledge reasoning  
+🔹 2️⃣ Retrieval Layer
 
-### 🔹 2️⃣ Retrieval Layer
 Performs:
-- semantic document search
-- graph neighborhood expansion
-- hybrid RAG retrieval strategy
 
-### 🔹 3️⃣ Agent Layer
-Agents coordinate reasoning:
-- Planner Agent → decides approach
-- Retriever Agent → fetches knowledge
-- Graph Reasoning Agent → performs relational logic
-- Synthesizer Agent → composes final response
+Semantic search
 
-### 🔹 4️⃣ Inference Layer
-Produces:
-- grounded answers
-- graph-aware reasoning
-- reliable contextual responses
+Graph neighborhood expansion
 
----
+Hybrid RAG retrieval strategy
 
-## 📓 Notebook Included
-| File | Description |
-|------|------------|
-| `AGENTIC_GRAPHICAL_RAG.ipynb` | Complete implementation of Agentic + Graphical RAG |
+🔹 3️⃣ Agent Layer
 
----
+Agents collaboratively reason through:
 
-## 🛠️ Requirements
-Install the dependencies below (adjust as needed depending on environment):
+Planner Agent → decides strategy
 
-```bash
+Retriever Agent → fetches knowledge
+
+Graph Reasoning Agent → performs relational logic
+
+Synthesizer Agent → composes grounded responses
+
+🔹 4️⃣ Inference Layer
+
+Produces outputs that are:
+
+Knowledge-grounded
+
+Graph-aware
+
+Contextually reliable
+
+📓 Notebook
+File	Description
+AGENTIC_GRAPHICAL_RAG.ipynb	Complete implementation of Agentic + Graphical RAG
+🛠️ Requirements
+
+Install dependencies:
+
 pip install transformers
 pip install datasets
 pip install networkx
@@ -83,8 +84,8 @@ pip install langchain
 pip install numpy pandas
 
 
-If you are running in Google Colab or Jupyter Lab, simply open the notebook and run the cells sequentially.
-```
+If using Google Colab or Jupyter Lab, simply open the notebook and execute cells sequentially.
+
 ▶️ How to Use
 
 1️⃣ Open the notebook
@@ -92,13 +93,13 @@ If you are running in Google Colab or Jupyter Lab, simply open the notebook and 
 3️⃣ Provide query input
 4️⃣ System performs:
 
-retrieval
+Retrieval
 
-graph reasoning
+Graph reasoning
 
-agent orchestration
+Agent orchestration
 
-response synthesis
+Response synthesis
 
 🎯 Expected Outcomes
 
@@ -118,27 +119,27 @@ Knowledge-driven AI
 
 Enterprise RAG systems
 
-Biomedical research support
+Biomedical knowledge inference
 
-Finance / Legal knowledge systems
+Finance / Legal intelligence
 
 Educational tutoring systems
 
-Any domain needing trustworthy reasoning
+Any domain requiring trustworthy reasoning
 
 ⚠️ Limitations
 
-Graph quality impacts reasoning
+Dependent on graph quality
 
-Requires structured or semi-structured knowledge
+Requires structured or semi-structured data
 
-More computational overhead than vanilla RAG
+Higher computational cost than vanilla RAG
 
-Agents require careful design to avoid loops
+Agents require careful loop control
 
 🧾 Research Direction
 
-This project contributes toward:
+This work contributes towards:
 
 Explainable AI (XAI)
 
@@ -146,28 +147,28 @@ Knowledge-grounded LLMs
 
 Autonomous agent systems
 
-Hybrid RAG evolution
+Evolution of hybrid RAG architectures
 
-Future improvements may include:
+Future Enhancements
 
-Larger-scale KG integration
+Large-scale KG integration
 
 RL-based agent optimization
 
 Memory-augmented reasoning
 
-Multimodal (image + text + graph)
+Multimodal (image + text + graph) integration
 
 📜 License
 
-This project is for research and educational purposes.
-Modify licensing as needed for your repository.
+This project is intended for research and educational purposes.
+Modify licensing as appropriate for your repository.
 
 🙏 Acknowledgements
 
 Inspired by advancements in:
 
-RAG / Graph RAG literature
+RAG & Graph RAG research
 
 Agentic AI systems
 
